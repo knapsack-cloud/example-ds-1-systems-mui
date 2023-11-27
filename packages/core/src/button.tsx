@@ -31,8 +31,9 @@ export const Button: React.FC<ButtonProps> = ({
     'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600',
     sizes[size],
     types[type],
-  ].filter(Boolean).join(' ');
-
+  ]
+    .filter(Boolean)
+    .join(' ');
   return (
     <button className={buttonClasses} type="button">
       {children}
