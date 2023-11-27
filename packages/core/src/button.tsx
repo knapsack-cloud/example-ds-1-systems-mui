@@ -1,30 +1,36 @@
 import React from 'react';
 
+// Definition of sizes and types
 const sizes = {
-  small: ['text-sm', 'shadow-sm', 'px-2', 'py-1'],
-  medium: ['px-4', 'py-2'],
-  large: ['px-6', 'py-3'],
+  small: 'text-sm shadow-sm px-2 py-1',
+  medium: 'px-4 py-2',
+  large: 'px-6 py-3',
 };
 
 const types = {
-  primary: ['bg-indigo-600', 'hover:bg-indigo-500'],
-  secondary: ['bg-gray-600', 'hover:bg-gray-500'],
+  primary: 'bg-indigo-600 hover:bg-indigo-500',
+  secondary: 'bg-gray-600 hover:bg-gray-500',
 };
 
+// Button Component
 interface ButtonProps {
   children: React.ReactNode;
   type?: 'primary' | 'secondary';
   size?: 'small' | 'medium' | 'large';
 }
 
-export const Button: React.FC<ButtonProps> = ({ children, type = 'primary', size = 'medium' }) => {
+export const Button: React.FC<ButtonProps> = ({
+  children,
+  type = 'primary',
+  size = 'medium',
+}: ButtonProps) => {
   const buttonClasses = [
     'rounded',
     'font-semibold',
     'text-white',
     'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600',
-    ...(sizes[size] || []),
-    ...(types[type] || []),
+    sizes[size],
+    types[type],
   ].filter(Boolean).join(' ');
 
   return (
