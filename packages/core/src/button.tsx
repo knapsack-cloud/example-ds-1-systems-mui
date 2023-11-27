@@ -11,30 +11,24 @@ const types = {
   secondary: ['bg-gray-600', 'hover:bg-gray-500'],
 };
 
-export const Button = ({
-  children,
-  type = 'primary',
-  size = 'medium',
-}: {
+interface ButtonProps {
   children: React.ReactNode;
-  type: 'primary' | 'secondary';
-  size: 'small' | 'medium' | 'large';
-}) => {
-  const classes = [
+  type?: 'primary' | 'secondary';
+  size?: 'small' | 'medium' | 'large';
+}
+
+export const Button: React.FC<ButtonProps> = ({ children, type = 'primary', size = 'medium' }) => {
+  const buttonClasses = [
     'rounded',
     'font-semibold',
     'text-white',
-    'focus-visible:outline',
-    'focus-visible:outline-2',
-    'focus-visible:outline-offset-2',
-    'focus-visible:outline-indigo-600',
-    ...sizes[size],
-    ...types[type],
-  ]
-    .filter(Boolean)
-    .join(' ');
+    'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600',
+    ...(sizes[size] || []),
+    ...(types[type] || []),
+  ].filter(Boolean).join(' ');
+
   return (
-    <button className={classes} type="button">
+    <button className={buttonClasses} type="button">
       {children}
     </button>
   );

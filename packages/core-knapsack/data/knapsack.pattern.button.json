@@ -1,0 +1,57 @@
+{
+  "id": "button",
+  "title": "Button",
+  "description": "",
+  "statuses": {},
+  "templates": [
+    {
+      "id": "react-jVxnWDT5cw",
+      "title": "Button",
+      "path": "@my-org/core",
+      "alias": "Button",
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": {
+          "children": {
+            "title": "children"
+          }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["primary", "secondary"]
+            },
+            "size": {
+              "type": "string",
+              "enum": ["small", "medium", "large"]
+            }
+          }
+        }
+      },
+      "demoIds": ["Df3af7RKNs"],
+      "blockIds": []
+    }
+  ],
+  "tabs": [
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "template",
+      "id": "react-jVxnWDT5cw"
+    }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "blockIds": []
+    }
+  ]
+}

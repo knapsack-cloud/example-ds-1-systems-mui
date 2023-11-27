@@ -1,0 +1,18 @@
+{
+  "id": "Df3af7RKNs",
+  "title": "Main",
+  "type": "data",
+  "patternId": "button",
+  "templateId": "react-jVxnWDT5cw",
+  "data": {
+    "props": {},
+    "slots": {
+      "children": [
+        {
+          "type": "text",
+          "text": "Button"
+        }
+      ]
+    }
+  }
+}
