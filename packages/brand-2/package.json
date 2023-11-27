@@ -1,5 +1,5 @@
 {
-  "name": "ds-react",
+  "name": "@my-org/brand-2",
   "version": "1.0.0",
   "description": "",
   "module": "dist/index.js",
@@ -13,7 +13,8 @@
     "start": "run-p watch:js watch:css"
   },
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "@my-org/core": "^1.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
