@@ -1,0 +1,25 @@
+{
+  "name": "ds-react",
+  "version": "1.0.0",
+  "description": "",
+  "module": "dist/index.js",
+  "types": "dist/index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/style.css -o ./dist/style.css",
+    "watch:css": "npm run build:css -- --watch",
+    "build:js": "tsc",
+    "watch:js": "tsc --watch --preserveWatchOutput",
+    "build": "run-p build:js build:css",
+    "start": "run-p watch:js watch:css"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
+  },
+  "author": "KnapsackBot 53622700+KnapsackBot@users.noreply.github.com",
+  "license": "ISC"
+}
