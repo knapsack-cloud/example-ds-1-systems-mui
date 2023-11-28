@@ -7,7 +7,7 @@
     "start": "npm run prep && knapsack start",
     "serve": "NODE_ENV=production knapsack serve",
     "test": "knapsack test",
-    "prep": "cp -r ../core/dist ./core-dist"
+    "prep": "rm -rf ./core-dist && cp -r ../core/dist ./core-dist"
   },
   "dependencies": {},
   "devDependencies": {
