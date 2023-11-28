@@ -13,6 +13,7 @@
     "start": "run-p watch:js watch:css"
   },
   "dependencies": {
+    "@my-org/core-tokens": "^1.0.0",
     "react": "^18.2.0"
   },
   "devDependencies": {
