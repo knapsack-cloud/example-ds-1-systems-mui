@@ -8,7 +8,7 @@
       "inlineJs": "",
       "assets": [
         {
-          "src": "../../core/dist/style.css"
+          "src": "../core-dist/style.css"
         }
       ]
     }
