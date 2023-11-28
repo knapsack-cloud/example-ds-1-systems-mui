@@ -17,6 +17,9 @@ module.exports = configureKnapsack({
       },
     }),
   ],
+  designTokens: {
+    distDir: join(__dirname, '../core-tokens/dist'),
+  },
   plugins: [],
   cloud: {
     siteId: "ks-example-ds-1-systems-core",
