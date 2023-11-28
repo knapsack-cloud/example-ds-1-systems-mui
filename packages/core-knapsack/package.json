@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "npm run prep && knapsack build",
-    "start": "npm run prep && knapsack start",
+    "build": "knapsack build",
+    "start": "knapsack start",
     "serve": "NODE_ENV=production knapsack serve",
-    "test": "knapsack test",
-    "prep": "rm -rf ./core-dist && cp -r ../core/dist ./core-dist"
+    "test": "knapsack test"
   },
   "dependencies": {},
   "devDependencies": {
