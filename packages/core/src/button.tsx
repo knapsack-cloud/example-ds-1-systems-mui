@@ -8,8 +8,8 @@ const sizes = {
 };
 
 const types = {
-  primary: 'bg-indigo-600 hover:bg-indigo-500',
-  secondary: 'bg-gray-600 hover:bg-gray-500',
+  primary: 'bg-primary',
+  secondary: 'bg-secondary',
 };
 
 // Button Component

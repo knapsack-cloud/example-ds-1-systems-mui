@@ -8,6 +8,9 @@
       "inlineJs": "",
       "assets": [
         {
+          "src": "@my-org/core-tokens/dist/design-tokens.css"
+        },
+        {
           "src": "@my-org/core/dist/style.css"
         }
       ]

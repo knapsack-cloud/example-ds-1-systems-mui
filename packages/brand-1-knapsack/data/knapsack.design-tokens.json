@@ -1,1 +1,16 @@
-{}
+{
+  "Color": {
+    "description": "",
+    "type": "string",
+    "Primary": {
+      "$value": "#14BBF7",
+      "$description": "",
+      "$type": "color"
+    },
+    "Secondary": {
+      "$value": "#48B807",
+      "$description": "",
+      "$type": "color"
+    }
+  }
+}

@@ -1,2 +1,8 @@
-byId: {}
-order: []
+byId:
+  button:
+    id: button
+    name: Button
+    parentId: root
+    path: /pattern/button
+order:
+  - button
