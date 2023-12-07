@@ -5,15 +5,35 @@
   "statuses": {},
   "templates": [
     {
-      "id": "react-jVxnWDT5cw",
+      "id": "react-BvokayQvqB",
       "title": "Button",
       "path": "@my-org/core",
       "alias": "Button",
       "templateLanguageId": "react",
       "spec": {
-        "isInferred": true
+        "slots": {
+          "children": {
+            "title": "children"
+          }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["primary", "secondary"]
+            },
+            "size": {
+              "type": "string",
+              "enum": ["small", "medium", "large"]
+            }
+          }
+        }
       },
-      "demoIds": ["Df3af7RKNs"],
+      "demoIds": ["ZYkX_5m9yd"],
       "blockIds": []
     }
   ],
@@ -24,7 +44,7 @@
     },
     {
       "type": "template",
-      "id": "react-jVxnWDT5cw"
+      "id": "react-BvokayQvqB"
     }
   ],
   "subPages": [

@@ -1,0 +1,21 @@
+{
+  "id": "ZYkX_5m9yd",
+  "title": "Main",
+  "type": "data",
+  "patternId": "button",
+  "templateId": "react-BvokayQvqB",
+  "data": {
+    "props": {
+      "type": "secondary",
+      "size": "medium"
+    },
+    "slots": {
+      "children": [
+        {
+          "type": "text",
+          "text": "Button"
+        }
+      ]
+    }
+  }
+}

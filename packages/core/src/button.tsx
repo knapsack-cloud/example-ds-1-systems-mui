@@ -17,20 +17,22 @@ interface ButtonProps {
   children: React.ReactNode;
   type?: 'primary' | 'secondary';
   size?: 'small' | 'medium' | 'large';
+  additionalClass?: string;
 }
 
 export const Button: React.FC<ButtonProps> = ({
   children,
   type = 'primary',
   size = 'medium',
+  additionalClass = '',
 }: ButtonProps) => {
   const buttonClasses = [
-    'rounded',
     'font-semibold',
     'text-white',
     'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600',
     sizes[size],
     types[type],
+    additionalClass,
   ]
     .filter(Boolean)
     .join(' ');
