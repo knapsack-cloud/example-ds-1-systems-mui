@@ -1,15 +1,11 @@
 {
-  "id": "Df3af7RKNs",
+  "id": "RInaxeV5qt",
   "title": "Main",
   "type": "data",
   "patternId": "button",
-  "templateId": "react-jVxnWDT5cw",
+  "templateId": "react-b7pWPyeYhb",
   "data": {
-    "props": {
-      "type": "primary",
-      "size": "medium",
-      "className": "rounded"
-    },
+    "props": {},
     "slots": {
       "children": [
         {
