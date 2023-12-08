@@ -1,4 +1,4 @@
-import React from 'react';
+import { PropsWithChildren } from 'react';
 
 // Definition of sizes and types
 const sizes = {
@@ -13,29 +13,34 @@ const types = {
 };
 
 // Button Component
-interface ButtonProps {
-  children: React.ReactNode;
+export interface ButtonProps {
   type?: 'primary' | 'secondary';
   size?: 'small' | 'medium' | 'large';
-  additionalClass?: string;
+  className?: string;
 }
 
-export const Button: React.FC<ButtonProps> = ({
+export const Button = ({
   children,
   type = 'primary',
   size = 'medium',
-  additionalClass = '',
-}: ButtonProps) => {
+  className,
+  additionalClasses, // additionalClasses = 'rounded',
+}: PropsWithChildren<ButtonProps & { additionalClasses?: string }>) => {
   const buttonClasses = [
     'font-semibold',
     'text-white',
-    'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600',
+    'focus-visible:outline',
+    'focus-visible:outline-2',
+    'focus-visible:outline-offset-2',
+    'focus-visible:outline-indigo-600',
     sizes[size],
     types[type],
-    additionalClass,
+    className,
+    additionalClasses,
   ]
     .filter(Boolean)
     .join(' ');
+
   return (
     <button className={buttonClasses} type="button">
       {children}

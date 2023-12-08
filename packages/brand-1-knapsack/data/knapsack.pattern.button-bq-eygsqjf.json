@@ -1,19 +1,19 @@
 {
-  "id": "button",
+  "id": "button-bq-eygsqjf",
   "title": "Button",
   "description": "",
   "statuses": {},
   "templates": [
     {
-      "id": "react-BvokayQvqB",
-      "title": "CoreButton",
-      "path": "@my-org/core",
+      "id": "react-cZvQR_fMwx",
+      "title": "Button",
+      "path": "@my-org/brand-1",
       "alias": "Button",
       "templateLanguageId": "react",
       "spec": {
         "isInferred": true
       },
-      "demoIds": ["ZYkX_5m9yd"],
+      "demoIds": ["CcMblOJFpT"],
       "blockIds": []
     }
   ],
@@ -24,7 +24,7 @@
     },
     {
       "type": "template",
-      "id": "react-BvokayQvqB"
+      "id": "react-cZvQR_fMwx"
     }
   ],
   "subPages": [

@@ -1,11 +1,11 @@
 {
   "color": {
     "primary": {
-      "$value": "#f7b814",
+      "$value": "#CCCCCC",
       "$type": "color"
     },
     "secondary": {
-      "$value": "#0797b8",
+      "$value": "#ADD8E6",
       "$type": "color"
     }
   }

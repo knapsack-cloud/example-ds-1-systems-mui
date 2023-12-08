@@ -1,12 +1,15 @@
-import { Button as CoreButton } from '@my-org/core';
-import React from 'react';
+import { Button as CoreButton, ButtonProps } from '@my-org/core';
+import { ComponentProps } from 'react';
 
-type CoreButtonProps = React.ComponentProps<typeof CoreButton>;
-
-export const Button = (props: {
-  children: React.ReactNode;
-  type?: 'primary' | 'secondary';
-  size?: 'small' | 'medium' | 'large';
-}) => {
-  return <CoreButton {...props} />;
+export const Button = ({
+  children,
+  additionalClasses = 'rounded',
+  kittens,
+  ...rest
+}: ComponentProps<typeof CoreButton> & { kittens: boolean }) => {
+  return (
+    <CoreButton className={additionalClasses} {...rest}>
+      {children}
+    </CoreButton>
+  );
 };

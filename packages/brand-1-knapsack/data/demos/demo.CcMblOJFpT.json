@@ -1,0 +1,22 @@
+{
+  "id": "CcMblOJFpT",
+  "title": "Main",
+  "type": "data",
+  "patternId": "button-bq-eygsqjf",
+  "templateId": "react-cZvQR_fMwx",
+  "data": {
+    "props": {
+      "type": "primary",
+      "size": "medium",
+      "additionalClass": "rounded"
+    },
+    "slots": {
+      "children": [
+        {
+          "type": "text",
+          "text": "Button"
+        }
+      ]
+    }
+  }
+}
