@@ -27,6 +27,7 @@ export const Button = ({
   additionalClasses, // additionalClasses = 'rounded',
 }: PropsWithChildren<ButtonProps & { additionalClasses?: string }>) => {
   const buttonClasses = [
+    // 'rounded',
     'font-semibold',
     'text-white',
     'focus-visible:outline',

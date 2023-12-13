@@ -3,10 +3,10 @@ import { ComponentProps } from 'react';
 
 export const Button = ({
   children,
+  // additionalClasses,
   additionalClasses = 'rounded',
-  kittens,
   ...rest
-}: ComponentProps<typeof CoreButton> & { kittens: boolean }) => {
+}: ComponentProps<typeof CoreButton>) => {
   return (
     <CoreButton className={additionalClasses} {...rest}>
       {children}

@@ -1,26 +1,26 @@
 {
-  "id": "button",
-  "title": "Button",
+  "id": "card",
+  "title": "Card",
   "description": "",
   "statuses": {},
   "templates": [
     {
-      "id": "react-BvokayQvqB",
-      "title": "CoreButton",
+      "id": "react-Q5YD8b6cH0",
+      "title": "Card",
       "path": "@my-org/core",
-      "alias": "Button",
+      "alias": "Card",
       "templateLanguageId": "react",
       "spec": {
         "isInferred": true
       },
-      "demoIds": ["ZYkX_5m9yd"],
+      "demoIds": ["tLuFZbYHWK", "IKhOSxt1HN"],
       "blockIds": []
     }
   ],
   "tabs": [
     {
       "type": "template",
-      "id": "react-BvokayQvqB"
+      "id": "react-Q5YD8b6cH0"
     }
   ],
   "subPages": []
