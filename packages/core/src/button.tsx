@@ -24,10 +24,9 @@ export const Button = ({
   type = 'primary',
   size = 'medium',
   className,
-  additionalClasses, // additionalClasses = 'rounded',
-}: PropsWithChildren<ButtonProps & { additionalClasses?: string }>) => {
+}: PropsWithChildren<ButtonProps>) => {
   const buttonClasses = [
-    // 'rounded',
+    'rounded',
     'font-semibold',
     'text-white',
     'focus-visible:outline',
@@ -37,7 +36,6 @@ export const Button = ({
     sizes[size],
     types[type],
     className,
-    additionalClasses,
   ]
     .filter(Boolean)
     .join(' ');
