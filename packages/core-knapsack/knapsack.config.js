@@ -22,7 +22,7 @@ module.exports = configureKnapsack({
   },
   plugins: [],
   cloud: {
-    siteId: "ks-example-ds-1-systems-core",
+    siteId: "ks-example-ds-1-systems-mui",
     repoRoot: join(__dirname, "../.."),
   },
 });

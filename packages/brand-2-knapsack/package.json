@@ -14,8 +14,8 @@
     "@types/react": "^18.2.37",
     "typescript": "^5.2.2",
     "@my-org/brand-2": "^1.0.0",
-    "@knapsack/app": "^4.39.1",
-    "@knapsack/renderer-react": "^4.39.1"
+    "@knapsack/app": "^4.41.22",
+    "@knapsack/renderer-react": "^4.41.22"
   },
   "author": "KnapsackBot 53622700+KnapsackBot@users.noreply.github.com",
   "license": "ISC"
