@@ -1,0 +1,37 @@
+{
+  "id": "button",
+  "title": "Button",
+  "description": "",
+  "statuses": {},
+  "templates": [
+    {
+      "id": "react-JyGH6DeHOt",
+      "title": "BrandButton",
+      "path": "@my-org/brand-1",
+      "alias": "BrandButton",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["Jl-aVBMF6K", "CU4GhU-711"],
+      "blockIds": []
+    }
+  ],
+  "tabs": [
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "template",
+      "id": "react-JyGH6DeHOt"
+    }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "blockIds": []
+    }
+  ]
+}

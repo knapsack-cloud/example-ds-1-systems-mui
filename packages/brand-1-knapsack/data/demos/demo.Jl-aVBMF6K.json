@@ -1,0 +1,29 @@
+{
+  "id": "Jl-aVBMF6K",
+  "title": "Main",
+  "type": "data",
+  "patternId": "button",
+  "templateId": "react-JyGH6DeHOt",
+  "data": {
+    "props": {
+      "disabled": false,
+      "disableElevation": false,
+      "disableFocusRipple": false,
+      "fullWidth": false,
+      "centerRipple": false,
+      "disableRipple": false,
+      "disableTouchRipple": false,
+      "focusRipple": false,
+      "tabIndex": 0,
+      "variant": "contained"
+    },
+    "slots": {
+      "children": [
+        {
+          "type": "text",
+          "text": "Button"
+        }
+      ]
+    }
+  }
+}

@@ -1,9 +1,3 @@
-import { Button as CoreButton, ButtonProps } from '@my-org/core';
-import { ComponentProps } from 'react';
+import { MuiButton as CoreButton } from '@my-org/core';
 
-export const Button = ({
-  children,
-  ...rest
-}: ComponentProps<typeof CoreButton>) => {
-  return <CoreButton {...rest}>{children}</CoreButton>;
-};
+export const BrandButton = CoreButton;

@@ -1,0 +1,37 @@
+{
+  "id": "card",
+  "title": "Card",
+  "description": "",
+  "statuses": {},
+  "templates": [
+    {
+      "id": "react-Y8u15jra1",
+      "title": "BrandCard",
+      "path": "@my-org/brand-1",
+      "alias": "BrandCard",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["Q0bylpOl6t"],
+      "blockIds": []
+    }
+  ],
+  "tabs": [
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "template",
+      "id": "react-Y8u15jra1"
+    }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "blockIds": []
+    }
+  ]
+}

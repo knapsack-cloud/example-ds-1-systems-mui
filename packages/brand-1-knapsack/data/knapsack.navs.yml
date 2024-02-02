@@ -4,11 +4,21 @@ byId:
     name: Button
     parentId: components
     path: /pattern/button
-  button-bq-eygsqjf:
-    id: button-bq-eygsqjf
-    name: Button
+  card:
+    id: card
+    name: Card
     parentId: components
-    path: /pattern/button-bq-eygsqjf
+    path: /pattern/card
+  card-actions:
+    id: card-actions
+    name: Card Actions
+    parentId: card
+    path: /pattern/card-actions
+  card-content:
+    id: card-content
+    name: Card Content
+    parentId: card
+    path: /pattern/card-content
   components:
     id: components
     name: Components
@@ -17,4 +27,6 @@ byId:
 order:
   - components
   - button
-  - button-bq-eygsqjf
+  - card
+  - card-actions
+  - card-content

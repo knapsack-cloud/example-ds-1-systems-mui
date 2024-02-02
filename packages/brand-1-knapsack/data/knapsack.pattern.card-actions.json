@@ -1,0 +1,37 @@
+{
+  "id": "card-actions",
+  "title": "Card Actions",
+  "description": "",
+  "statuses": {},
+  "templates": [
+    {
+      "id": "react-TGIzinicHc",
+      "title": "BrandCardActions",
+      "path": "@my-org/brand-1",
+      "alias": "BrandCardActions",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["7u59oMNPfo"],
+      "blockIds": []
+    }
+  ],
+  "tabs": [
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "template",
+      "id": "react-TGIzinicHc"
+    }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "blockIds": []
+    }
+  ]
+}
