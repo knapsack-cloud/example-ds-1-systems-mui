@@ -1,0 +1,18 @@
+{
+  "id": "FnclYbJio5",
+  "title": "Main",
+  "type": "data",
+  "patternId": "card-content",
+  "templateId": "react-jztO8inW1s",
+  "data": {
+    "props": {},
+    "slots": {
+      "children": [
+        {
+          "type": "text",
+          "text": "Elit sunt minim dolor incididunt. Anim tempor cupidatat reprehenderit qui occaecat commodo incididunt aute. Ut do labore quis eiusmod eiusmod excepteur laboris voluptate proident veniam ex. Duis mollit adipisicing magna aliquip dolor fugiat laboris irure ad."
+        }
+      ]
+    }
+  }
+}

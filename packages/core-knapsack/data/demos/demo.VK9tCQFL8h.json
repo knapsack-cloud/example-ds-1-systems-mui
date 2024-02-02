@@ -1,0 +1,30 @@
+{
+  "id": "VK9tCQFL8h",
+  "title": "Outlined",
+  "description": "A description",
+  "type": "data",
+  "patternId": "button",
+  "templateId": "react-BvokayQvqB",
+  "data": {
+    "props": {
+      "disabled": false,
+      "disableElevation": false,
+      "disableFocusRipple": false,
+      "fullWidth": false,
+      "centerRipple": false,
+      "disableRipple": false,
+      "disableTouchRipple": false,
+      "focusRipple": false,
+      "tabIndex": 0,
+      "variant": "outlined"
+    },
+    "slots": {
+      "children": [
+        {
+          "type": "text",
+          "text": "Button"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "card-actions",
+  "title": "Card Actions",
+  "description": "",
+  "statuses": {},
+  "templates": [
+    {
+      "id": "react-m68efaJPRz",
+      "title": "MuiCardActions",
+      "path": "@my-org/core",
+      "alias": "MuiCardActions",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["BTlqrQpvhL"],
+      "blockIds": []
+    }
+  ],
+  "tabs": [
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "template",
+      "id": "react-m68efaJPRz"
+    }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "blockIds": []
+    }
+  ]
+}

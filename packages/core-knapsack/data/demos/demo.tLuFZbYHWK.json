@@ -6,19 +6,25 @@
   "templateId": "react-Q5YD8b6cH0",
   "data": {
     "props": {
-      "image": "https://assets-global.website-files.com/63e3da3df35cd62f54751985/64e9206953f3d146c89b1158_Group%2017601.png"
+      "raised": false,
+      "elevation": 1,
+      "square": false,
+      "image": "https://assets-global.website-files.com/63e3da3df35cd62f54751985/64e9206953f3d146c89b1158_Group%2017601.png",
+      "variant": "outlined"
     },
     "slots": {
       "children": [
         {
-          "type": "text",
-          "text": "<p>Streamline your entire AP process, from bill creation to approvals and payments. Easily sync with your accounting software.</p>"
+          "type": "template-demo",
+          "patternId": "card-content",
+          "templateId": "react-jztO8inW1s",
+          "demoId": "FnclYbJio5"
         },
         {
           "type": "template-demo",
-          "patternId": "button",
-          "templateId": "react-BvokayQvqB",
-          "demoId": "ZYkX_5m9yd"
+          "patternId": "card-actions",
+          "templateId": "react-m68efaJPRz",
+          "demoId": "BTlqrQpvhL"
         }
       ]
     }

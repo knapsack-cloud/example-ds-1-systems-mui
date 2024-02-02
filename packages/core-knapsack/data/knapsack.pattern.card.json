@@ -6,9 +6,9 @@
   "templates": [
     {
       "id": "react-Q5YD8b6cH0",
-      "title": "Card",
+      "title": "MuiCard",
       "path": "@my-org/core",
-      "alias": "Card",
+      "alias": "MuiCard",
       "templateLanguageId": "react",
       "spec": {
         "isInferred": true

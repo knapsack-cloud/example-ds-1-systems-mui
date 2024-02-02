@@ -6,14 +6,14 @@
   "templates": [
     {
       "id": "react-BvokayQvqB",
-      "title": "CoreButton",
+      "title": "MuiButton",
       "path": "@my-org/core",
-      "alias": "Button",
+      "alias": "MuiButton",
       "templateLanguageId": "react",
       "spec": {
         "isInferred": true
       },
-      "demoIds": ["ZYkX_5m9yd"],
+      "demoIds": ["ZYkX_5m9yd", "VK9tCQFL8h"],
       "blockIds": []
     }
   ],

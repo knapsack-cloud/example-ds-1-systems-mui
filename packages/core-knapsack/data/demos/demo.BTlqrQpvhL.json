@@ -1,0 +1,28 @@
+{
+  "id": "BTlqrQpvhL",
+  "title": "Main",
+  "type": "data",
+  "patternId": "card-actions",
+  "templateId": "react-m68efaJPRz",
+  "data": {
+    "props": {
+      "disableSpacing": false
+    },
+    "slots": {
+      "children": [
+        {
+          "type": "template-demo",
+          "patternId": "button",
+          "templateId": "react-BvokayQvqB",
+          "demoId": "ZYkX_5m9yd"
+        },
+        {
+          "type": "template-demo",
+          "patternId": "button",
+          "templateId": "react-BvokayQvqB",
+          "demoId": "VK9tCQFL8h"
+        }
+      ]
+    }
+  }
+}

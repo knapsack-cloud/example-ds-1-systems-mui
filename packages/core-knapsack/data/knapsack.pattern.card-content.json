@@ -1,0 +1,36 @@
+{
+  "id": "card-content",
+  "title": "Card Content",
+  "statuses": {},
+  "templates": [
+    {
+      "id": "react-jztO8inW1s",
+      "title": "MuiCardContent",
+      "path": "@my-org/core",
+      "alias": "MuiCardContent",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["FnclYbJio5"],
+      "blockIds": []
+    }
+  ],
+  "tabs": [
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "template",
+      "id": "react-jztO8inW1s"
+    }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "blockIds": []
+    }
+  ]
+}
