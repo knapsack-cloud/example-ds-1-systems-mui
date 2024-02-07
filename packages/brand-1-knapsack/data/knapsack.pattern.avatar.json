@@ -1,0 +1,37 @@
+{
+  "id": "avatar",
+  "title": "Avatar",
+  "description": "",
+  "statuses": {},
+  "templates": [
+    {
+      "id": "react-ynIKxZ5xwW",
+      "title": "BrandAvatar",
+      "path": "@my-org/brand-1",
+      "alias": "BrandAvatar",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["aH0uf-uWND"],
+      "blockIds": []
+    }
+  ],
+  "tabs": [
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "template",
+      "id": "react-ynIKxZ5xwW"
+    }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "blockIds": []
+    }
+  ]
+}

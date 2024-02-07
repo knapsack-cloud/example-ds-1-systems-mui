@@ -1,0 +1,37 @@
+{
+  "id": "link",
+  "title": "Link",
+  "description": "",
+  "statuses": {},
+  "templates": [
+    {
+      "id": "react-06UBYgX6Cm",
+      "title": "BrandLink",
+      "path": "@my-org/brand-1",
+      "alias": "BrandLink",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["M9LcmYnenc"],
+      "blockIds": []
+    }
+  ],
+  "tabs": [
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "template",
+      "id": "react-06UBYgX6Cm"
+    }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "blockIds": []
+    }
+  ]
+}

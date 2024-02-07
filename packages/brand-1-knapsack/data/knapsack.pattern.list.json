@@ -1,0 +1,37 @@
+{
+  "id": "list",
+  "title": "List",
+  "description": "",
+  "statuses": {},
+  "templates": [
+    {
+      "id": "react-FgbdmIcsFN",
+      "title": "BrandList",
+      "path": "@my-org/brand-1",
+      "alias": "BrandList",
+      "templateLanguageId": "react",
+      "spec": {
+        "isInferred": true
+      },
+      "demoIds": ["2GPxxuFUTw"],
+      "blockIds": []
+    }
+  ],
+  "tabs": [
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "template",
+      "id": "react-FgbdmIcsFN"
+    }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "blockIds": []
+    }
+  ]
+}

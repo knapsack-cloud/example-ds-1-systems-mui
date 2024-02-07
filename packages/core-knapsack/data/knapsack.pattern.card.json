@@ -6,7 +6,7 @@
   "templates": [
     {
       "id": "react-Q5YD8b6cH0",
-      "title": "MuiCard",
+      "title": "CoreCard",
       "path": "@my-org/core",
       "alias": "MuiCard",
       "templateLanguageId": "react",
