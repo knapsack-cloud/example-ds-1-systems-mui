@@ -11,7 +11,59 @@
       "alias": "BrandButton",
       "templateLanguageId": "react",
       "spec": {
-        "isInferred": true
+        "slots": {
+          "children": {
+            "title": "children",
+            "description": "The content of the component."
+          }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "The URL to link to when the button is clicked.\nIf defined, an `a` element will be used as the root node."
+            },
+            "classes": {
+              "tsType": "Partial<ButtonClasses> & Partial<ClassNameMap<never>>",
+              "description": "Override or extend the styles applied to the component."
+            },
+            "color": {
+              "type": "string",
+              "enum": [
+                "inherit",
+                "primary",
+                "secondary",
+                "success",
+                "error",
+                "info",
+                "warning"
+              ],
+              "description": "The color of the component.\nIt supports both default and custom theme colors, which can be added as shown in the\n[palette customization guide](https://mui.com/material-ui/customization/palette/#custom-colors)."
+            },
+            "disabled": {
+              "type": "boolean",
+              "description": "If `true`, the component is disabled.",
+              "default": false
+            },
+            "size": {
+              "type": "string",
+              "enum": ["small", "medium", "large"],
+              "description": "The size of the component.\n`small` is equivalent to the dense button styling."
+            },
+            "variant": {
+              "type": "string",
+              "enum": ["text", "outlined", "contained"],
+              "description": "The variant to use."
+            },
+            "slot": {
+              "type": "string"
+            }
+          }
+        }
       },
       "demoIds": ["Jl-aVBMF6K", "CU4GhU-711"],
       "blockIds": []

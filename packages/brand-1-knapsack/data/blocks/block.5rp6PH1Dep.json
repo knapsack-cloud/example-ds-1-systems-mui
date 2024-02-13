@@ -1,0 +1,35 @@
+{
+  "id": "5rp6PH1Dep",
+  "blockType": "shortcut-tiles",
+  "data": {
+    "shortcuts": [
+      {
+        "id": "W9FZu8b7z",
+        "title": "Get Started",
+        "link": {
+          "name": "Get Started",
+          "path": "/pages/get-started"
+        },
+        "image": "https://knapsack.imgix.net/site/ks-example-ds-1-systems-brand-1/learning-1-2t4bfdeavxpng"
+      },
+      {
+        "id": "FnB4tlnLy",
+        "title": "Tokens",
+        "link": {
+          "name": "Tokens",
+          "path": "/pages/tokens"
+        },
+        "image": "https://knapsack.imgix.net/site/ks-example-ds-1-systems-brand-1/algorithm-4kbb3i5-bvpng"
+      },
+      {
+        "id": "dpdBww15R6",
+        "title": "Components",
+        "link": {
+          "name": "Components",
+          "path": "/pages/components"
+        },
+        "image": "https://knapsack.imgix.net/site/ks-example-ds-1-systems-brand-1/machine-0e9ikrkg8png"
+      }
+    ]
+  }
+}

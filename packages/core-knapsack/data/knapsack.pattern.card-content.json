@@ -18,19 +18,9 @@
   ],
   "tabs": [
     {
-      "type": "subPage",
-      "id": "overview"
-    },
-    {
       "type": "template",
       "id": "react-jztO8inW1s"
     }
   ],
-  "subPages": [
-    {
-      "id": "overview",
-      "title": "Overview",
-      "blockIds": []
-    }
-  ]
+  "subPages": []
 }

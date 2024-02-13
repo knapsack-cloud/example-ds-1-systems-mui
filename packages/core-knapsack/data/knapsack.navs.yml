@@ -24,9 +24,45 @@ byId:
     name: Components
     parentId: root
     path: /pages/components
+  contact-us:
+    id: contact-us
+    name: Contact Us
+    parentId: root
+    path: /pages/contact-us
+  contribute:
+    id: contribute
+    name: Contribute
+    parentId: root
+    path: /pages/contribute
+  foundations:
+    id: foundations
+    name: Foundations
+    parentId: root
+    path: /pages/foundations
+  get-started:
+    id: get-started
+    name: Get Started
+    parentId: root
+    path: /pages/get-started
+  patterns:
+    id: patterns
+    name: Patterns
+    parentId: root
+    path: /pages/patterns
+  tokens:
+    id: tokens
+    name: Tokens
+    parentId: root
+    path: /pages/tokens
 order:
+  - get-started
+  - tokens
   - components
   - button
   - card
   - card-content
   - card-actions
+  - patterns
+  - foundations
+  - contribute
+  - contact-us

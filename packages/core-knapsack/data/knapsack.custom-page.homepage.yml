@@ -1,15 +1,20 @@
 id: homepage
-title: ''
+title: Welcome
 blockIds: []
 settings:
   pageHeader:
     backgroundColor:
-      colorValue: '#6A4CEC'
       type: value
+      colorValue: '#ffffff'
     textColorTitle:
-      colorValue: '#FFFFFF'
       type: value
+      colorValue: '#000000'
     textColorDescription:
-      colorValue: '#FFFFFF'
       type: value
-    size: large
+      colorValue: '#000000'
+    size: small
+    backgroundImage: https://knapsack.imgix.net/site/ks-example-ds-1-systems-mui/primary-background-image-zpfrnisotn-vqmgf2gu4png
+    backgroundSize: cover
+    backgroundPosition: center
+    backgroundOverlay: false
+description: to the Primary Design System

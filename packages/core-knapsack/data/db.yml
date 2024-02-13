@@ -10,7 +10,17 @@ settings:
     appearance:
       customFonts: []
       navigation:
-        primaryNav: {}
+        primaryNav:
+          backgroundColor:
+            tokenName: color.primary
+            type: design-token
+          hoverColor:
+            colorValue: '#ffffff'
+            type: value
+          textColor:
+            colorValue: '#ffffff'
+            type: value
+          textTransform: inherit
         secondaryNav: {}
         tabs: {}
       pageElements:
@@ -24,4 +34,4 @@ settings:
         pageDescription: {}
         pageTitle: {}
     version: 10
-  title: Core
+  title: Primary

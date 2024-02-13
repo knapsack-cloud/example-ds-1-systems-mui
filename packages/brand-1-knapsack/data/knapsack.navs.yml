@@ -1,4 +1,9 @@
 byId:
+  avatar:
+    id: avatar
+    name: Avatar
+    parentId: components
+    path: /pattern/avatar
   button:
     id: button
     name: Button
@@ -19,14 +24,51 @@ byId:
     name: Card Content
     parentId: card
     path: /pattern/card-content
+  community:
+    id: community
+    name: Community
+    parentId: root
+    path: /pages/community
   components:
     id: components
     name: Components
     parentId: root
     path: /pages/components
+  get-started:
+    id: get-started
+    name: Get Started
+    parentId: root
+    path: /pages/get-started
+  link:
+    id: link
+    name: Link
+    parentId: components
+    path: /pattern/link
+  list:
+    id: list
+    name: List
+    parentId: components
+    path: /pattern/list
+  patterns:
+    id: patterns
+    name: Patterns
+    parentId: root
+    path: /pages/patterns
+  tokens:
+    id: tokens
+    name: Tokens
+    parentId: root
+    path: /pages/tokens
 order:
+  - get-started
+  - tokens
   - components
   - button
   - card
   - card-actions
   - card-content
+  - avatar
+  - list
+  - link
+  - patterns
+  - community

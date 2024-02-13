@@ -15,7 +15,9 @@
       "disableTouchRipple": false,
       "focusRipple": false,
       "tabIndex": 0,
-      "variant": "contained"
+      "variant": "contained",
+      "color": "primary",
+      "size": "medium"
     },
     "slots": {
       "children": [
